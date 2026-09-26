@@ -17,7 +17,6 @@ npm install
 
 # Create your environment file
 cp .env.example .env.local
-# Then edit .env.local with your real WhatsApp number and email
 
 # Run development server
 npm run dev
@@ -44,15 +43,6 @@ src/
 └── data/
     └── index.ts                # All portfolio content (centralized)
 ```
-
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `NEXT_PUBLIC_WHATSAPP_URL` | Your WhatsApp chat link (e.g. `https://wa.me/1234567890`) |
-| `NEXT_PUBLIC_EMAIL` | Your email address |
-
-See `.env.example` for the template.
 
 ## Deployment
 
