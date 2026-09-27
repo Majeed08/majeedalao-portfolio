@@ -9,10 +9,10 @@ export const personalInfo = {
   extendedBio: "During my Student Industrial Work Experience Scheme (SIWES), I interned at Unotelos for six months as a Customer Success Engineer, where I performed IP address cleaning and sorting, server installation and configuration, and IoT device installation and configuration. This experience introduced me to the practical applications of IP addressing in network environments, including IPTV systems. I have since furthered my knowledge through Cisco's Networking Academy — completing modules and earning certificates in Fundamentals of Cybersecurity and Networking Basics — and an intensive 11-hour cybersecurity course covering hands-on use of tools such as Nmap, Wireshark, Aircrack-ng, Macchanger, DVWA, Metasploit, Metasploitable 2, Jenkins, Netcraft, DNSmap, and WHOIS. I am also familiar with simple network configurations. Currently, I am focused on my cybersecurity career path through continuous learning and practice on platforms like Cisco NetAcad, TryHackMe, and tools like Metasploitable 2.",
   contact: {
     email: `mailto:${process.env.NEXT_PUBLIC_EMAIL || ""}`,
-    linkedin: "https://linkedin.com/in/your-profile",  // replace with your real LinkedIn URL
+    linkedin: "https://linkedin.com/in/olabode-alao-14aa01242",  
     github: "https://github.com/Majeed08",
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_URL || "",
-    instagram: "https://instagram.com/your-profile",    // replace with your real Instagram URL
+    instagram: "#",    
   },
   cvLink: "Olabode_Alao_CV.pdf",
 };
@@ -114,7 +114,7 @@ export const projectCategories = [
           "Built a targeted tool designed to parse and analyze potentially malicious communications, extracting actionable threat intelligence to identify phishing indicators.",
         tech: ["Python", "Threat Intelligence", "Regex"],
         github: "https://github.com/Majeed08/phishanalyzer_backend.git",
-        liveUrl: "",
+        liveUrl: "https://phishanalyzer-dashboard.vercel.app/",
         image: "/images/phishing-analyzer.png",
       },
       {
